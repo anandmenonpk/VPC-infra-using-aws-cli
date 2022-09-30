@@ -1,0 +1,1 @@
+aws ec2 create-vpc --tag-specifications ResourceType=vpc,Tags='[{Key="Name",Value="vpc.anand.lab"}]' --cidr-block 10.0.0.0/16 --query Vpc.VpcId --output text
